@@ -4,6 +4,18 @@
   "homepage": "https://acme.com",
   "items": [
     {
+      "name": "dynamic-breadcrumb",
+      "type": "registry:block",
+      "title": "Dynamic Breadcrumb",
+      "description": "Displays the path to the current resource using a hierarchy of links.",
+      "files": [
+        {
+          "path": "registry/scat-ui/components/dynamic-breadcrumb.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
       "name": "hello-world",
       "type": "registry:component",
       "title": "Hello World",

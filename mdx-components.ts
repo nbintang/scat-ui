@@ -1,9 +1,10 @@
-// mdx-components.tsx
+import defaultMdxComponents from 'fumadocs-ui/mdx';
 import type { MDXComponents } from 'mdx/types';
 
-export function useMDXComponents(components: MDXComponents): MDXComponents {
+// use this function to get MDX components, you will need it for rendering MDX
+export function getMDXComponents(components?: MDXComponents): MDXComponents {
   return {
+    ...defaultMdxComponents,
     ...components,
-    // You can add custom components here
   };
 }
